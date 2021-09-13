@@ -15,7 +15,7 @@ import {HttpClientModule} from '@angular/common/http';
 
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatPaginatorModule} from '@angular/material/paginator';
-import {MatSnackBar} from '@angular/material/snack-bar';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
 import {MatCheckboxModule} from '@angular/material/checkbox';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatSidenavModule} from '@angular/material/sidenav';
@@ -46,7 +46,7 @@ import { NavComponent } from './components/nav/nav.component';
     HttpClientModule,
     MatFormFieldModule,
     MatPaginatorModule,
-    MatSnackBar,
+    MatSnackBarModule,
     MatCheckboxModule,
     MatToolbarModule,
     MatSidenavModule,
